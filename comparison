@@ -1,0 +1,23 @@
+var superman = {
+  name: "superman",
+  power: "1000",
+  costumecolor: "Blue",
+  stealth: "0"
+  
+}
+
+var batman = {
+  name: "batman",
+  power: "100",
+  costumecolor: "Black",
+  stealth: "0"
+}
+
+var superheroes = [superman, batman];
+
+for (var i=0; i<superheroes.length; i++) {
+  var currentHero = superheroes[i];
+  console.log(currentHero.name);
+  console.log(currentHero.costumecolor);
+  console.log("-------------")
+}
